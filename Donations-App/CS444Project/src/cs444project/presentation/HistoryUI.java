@@ -1,5 +1,5 @@
 /*
- * History UI
+ * History User Interface
  */
 package cs444project.presentation;
 
