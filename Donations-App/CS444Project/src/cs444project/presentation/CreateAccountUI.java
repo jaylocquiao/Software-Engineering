@@ -1,5 +1,5 @@
 /*
-* Account UI
+* Account User Interface :: Code for Account Creation
 */
 package cs444project.presentation;
 
