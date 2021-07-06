@@ -1,3 +1,7 @@
+/*
+* Table Model for Donations
+*/
+
 package cs444project.presentation;
 
 import java.util.*;
