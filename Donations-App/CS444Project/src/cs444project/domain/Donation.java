@@ -1,3 +1,4 @@
+/*Donations Field Attribute Setup*/
 package cs444project.domain;
 
 import java.time.LocalDate;
