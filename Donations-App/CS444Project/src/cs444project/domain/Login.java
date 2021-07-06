@@ -41,26 +41,14 @@ public class Login {
         if (!this.password.equals(login.getPassword())) return false;
         return true;
     }
-    
-//    public boolean isEmailValid(String email) {
-//        String regex = "^[\\w-_\\.+]*[\\w-_\\.]\\@([\\w]+\\.)+[\\w]+[\\w]$";
-//        return email.matches(regex);
-//    }
-    
+    /*Method to Vaidate Login Credentials*/
     public boolean validateLogin() {
-        //USERNAME
         if (username == null || username.equals("") || username.length() < 8 || username.length() > 10) {
             return false;
         }
-        //PASSWORD
         if (password == null || password.equals("") || password.length() < 8 || password.length() > 10 || password.matches(username)) {
             return false;
         }
-        //EMAIL
-//        if (email == null || email.equals("") || !isEmailValid(email)) {
-//            System.out.println("FOOEY: NOT A VALID EMAIL. PLEASE TRY AGAIN");
-//            return false;
-//        }
         return true;
     }
     
